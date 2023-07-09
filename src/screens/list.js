@@ -5,6 +5,7 @@ import CartScreen from './CartScreen';
 import BookingScreen from './BookingScreen';
 import MatchesScreen from './MatchesScreen';
 import ContactsScreen from './ContactsScreen';
+import BestScreen from './BestScreen';
 
 const list = [
   {
@@ -41,6 +42,11 @@ const list = [
     name: 'Contacts',
     component: ContactsScreen,
     title: 'Kişiler',
+  },
+  {
+    name: 'Best',
+    component: BestScreen,
+    title: 'Best',
   },
 ];
 
