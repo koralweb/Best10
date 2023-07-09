@@ -14,7 +14,6 @@ const matches = [
     liga: 'English Championship',
     date: 10,
   },
-  ,
   {
     time: '13:05',
     team1: 'New South Wales',
