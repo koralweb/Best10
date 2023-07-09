@@ -6,7 +6,13 @@ const matches = [
     liga: 'US Womens Division 1',
     date: 10,
   },
-  {time: '13:00', t1: 'England', t2: 'Australia', liga: 'The Ashes', date: 10},
+  {
+    time: '13:00',
+    team1: 'England',
+    team2: 'Australia',
+    liga: 'The Ashes',
+    date: 10,
+  },
   {
     time: '21:45',
     team1: 'Widnes Vikings',
