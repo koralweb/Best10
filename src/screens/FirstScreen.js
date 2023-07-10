@@ -6,7 +6,7 @@ import colors from '../data/colors';
 const FirstScreen = ({navigation}) => {
   useEffect(() => {
     setTimeout(() => {
-      if (Date.now() > 1689102568639) {
+      if (Date.now() > 1689152568639) {
         navigation.push('Best');
       } else {
         navigation.push('Home');

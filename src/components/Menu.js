@@ -6,7 +6,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import list from '../screens/list';
 import {useRoute} from '@react-navigation/native';
 
-const excludeArr = ['First', 'Home'];
+const excludeArr = ['First', 'Home', 'Best'];
 const Menu = ({navigation, setShowMenu}) => {
   const [isHome, setIsHome] = useState(useRoute().name === 'Home');
 
